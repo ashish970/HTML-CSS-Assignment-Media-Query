@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    background-color: #7fffd4;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.large-screen,
+.normal,
+.tablet,
+.mobile
+{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+ @media screen and (max-width: 1440px) {
+    body{
+        background-color: #ffebcd;
+    }
+
+    .large-screen{
+    display: contents;
+    text-align: center;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: #f08c09;
+    }
+    .normal{
+        display: contents;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: #8a2be2;
+    }
+
+    .tablet{
+        display: contents;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    body{
+        background-color:#7fff00;
+    }
+
+    .mobile{
+        display: contents;
+        text-align: center;
+    }
+}
+
+
+
+ /* @media screen and (min-width: 0px) {
+    body {
+      background-color: #dc143c;
+    }
+
+    .mobile {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    body {
+      background-color: #00ffff;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: #b8860b;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: none;
+    }
+
+    .normal {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      background-color: #228b22;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: none;
+    }
+
+    .normal {
+      display: none;
+    }
+
+    .large-screen {
+      display: block;
+    }
+  }
+*/
